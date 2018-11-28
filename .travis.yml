@@ -1,6 +1,6 @@
 deploy:
   provider: firebase
   token:
-    secure: "YOUR ENCRYPTED token"
-  project: "myapp-staging"
+    secure: $FIREBASE_TOKEN
+  project: $TRAVIS_BRANCH
   message: "via travis"

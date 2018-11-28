@@ -1,0 +1,15 @@
+.top-buffer { margin-top:20px; }
+.jumbotronimagecontainer {
+    background-color: #e9ecef;
+    margin-bottom: 0;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* -webkit-background-size: cover; */
+    /* background-size: cover; */
+}
+.bg-company-grn{
+    background-color:   rgba(104, 176, 77, 1);
+}
+
+.jumbotrontop {  background-size: cover; padding: 0px; }

@@ -16,7 +16,7 @@ export const environment = {
   },
   bannerImage: {
     normal: "https://scotch-res.cloudinary.com/image/upload/dpr_1,w_1050,q_auto:good,f_auto/media/1/XY1f5y4S4qEXPF38GDFm_deploying-angular-cli-apps-to-production-with-firebase.jpg",
-    money: "/banner.png"
+    money: ".../assets/img/mn/banner.png"
   },
   producImage: {
     normal: "https://www.azocleantech.com/images/Article_Images/ImageForArticle_723(1).jpg",

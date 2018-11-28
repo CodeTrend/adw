@@ -1,6 +1,19 @@
-deploy:
-  provider: firebase
-  token:
-    secure: "YOUR ENCRYPTED token"
-  project: "myapp-staging"
-  message: "via travis"
+language: node_js
+node_js:
+  - "8.11.3"
+branches:
+  only:
+    - master
+    - cicd
+
+before_script:
+  - npm install -g firebase-tools
+  - npm install -g @angular/cli
+script:
+  - ng build --prod
+after_success:
+  - firebase deploy --token $FIREBASE_TOKEN
+notifications:
+  email:
+    on_failure: change
+    on_success: change

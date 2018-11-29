@@ -65,3 +65,13 @@ export const environment = {
     ImageUrl: "https://5.imimg.com/data5/PF/WV/MY-40441151/solar-panel-installation-service-500x500.jpg"
   }
 };
+
+/*
+Create firebase project
+1. Fill env local and prod
+2. Set title
+3. Banner image
+4. update .firebaserc
+5. get fire token
+6. update in travis and trigger a build.
+*/

@@ -9,9 +9,9 @@ export const environment = {
   Domain: "vdeskify.firebaseapp.com",
   TfnNumbers: "1A8A0A2A3A2A1A0A1A11",
   TfnClickToCall: "1A-8A0A2-3A2A1-0A1A11",
-  AddressLine1: "Plot No 495, Raja Park Gali No 5,",
-  AddressLine2: "Raja Park, Jaipur - 302004",
-  ContactNumber: "9940311034",
+  AddressLine1: "Block C, Shastri Park,",
+  AddressLine2: "Shahdara Delhi, 110053",
+  ContactNumber: "9940334034",
   CTATitle: "Quick Customer Support Number",
   MapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.9888773207504!2d73.01093061541665!3d26.26202439411884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c3e4389fdb9%3A0x6d6ad81a811317fb!2sNew+Power+House+Rd%2C+Jodhpur%2C+Rajasthan!5e0!3m2!1sen!2sin!4v1543373893514",
   companyLogo: {

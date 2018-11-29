@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  IsMakeMoney: true,
+  IsMakeMoney: false,
   Title: "This is the title",
   Domain: "vdeskify.firebaseapp.com",
   TfnNumbers: "1A8A0A2A3A2A1A0A1A11",

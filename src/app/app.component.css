@@ -5,11 +5,32 @@
     min-height: 400px;
     background-repeat: no-repeat;
     background-position: right;
-    /* -webkit-background-size: cover; */
-    /* background-size: cover; */
+    
+    -webkit-background-size: cover; 
+    background-size: cover; 
+    position: relative;
 }
 .bg-company-grn{
     background-color:   rgba(104, 176, 77, 1);
 }
 
 .jumbotrontop {  background-size: cover; padding: 0px; }
+
+.btnDiv {
+    width: 100%;
+    left: 0;
+    bottom: 10px;
+    position: absolute;
+  }
+
+  .btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    color: #fff;
+    background-color: rgba(104, 176, 77, 1);
+    border-color: rgb(133, 175, 117);
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }

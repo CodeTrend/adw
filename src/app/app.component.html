@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark bg-company-grn">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="{{logoImage}}"></a>
+        <a class="navbar-brand" href="#"><img width="201" height="45" src="{{logoImage}}"></a>
         <button *ngIf="isMakeMoney" class="btn btn-success ml-auto" style="background-color: rgba(255, 212, 71, 1); color: black;">
             CALL {{TfnClicktoCall}}</button>
     </div>
@@ -8,10 +8,11 @@
 
 
 <div class="jumbotrontop jumbotron">
-    <a href="#" id="ctcnow" *ngIf="isMakeMoney">
-        <div class="container jumbotronimagecontainer"  [style.background-image]="'url('+ bannerImage +')'">
-
-
+    <a href="#" id="ctcnow" *ngIf="isMakeMoney" href="tel:{{Tfn}}">
+        <div class="container jumbotronimagecontainer text-center"  [style.background-image]="'url('+ bannerImage +')'">
+            <div class="btnDiv">
+            <button id="singlebutton" name="singlebutton"  class="btn btn-xlarge"> CALL {{TfnClicktoCall}}</button> 
+        </div>
         </div>
     </a>
     <div *ngIf="!isMakeMoney" class="container jumbotronimagecontainer" [style.background-image]="'url('+ bannerImage +')'">
@@ -28,9 +29,7 @@
     <div class="container">
         <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" *ngIf="isMakeMoney">
             <h1 class="display-4">Pricing</h1>
-            <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap
-                example.
-                It's built with default Bootstrap components and utilities with little customization.</p>
+            <p class="lead">An effective pricing for our customer. Looking for larger units contact us direclty</p>
         </div>
 
         <div class="card-deck mb-3 text-center" *ngIf="isMakeMoney">
@@ -41,8 +40,8 @@
                 <div class="card-body">
                     <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>10 users included</li>
-                        <li>2 GB of storage</li>
+                        <li>10 Count</li>
+                        <li>2 units of storage</li>
                         <li>Email support</li>
                         <li>Help center access</li>
                     </ul>
@@ -56,8 +55,8 @@
                 <div class="card-body">
                     <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>20 users included</li>
-                        <li>10 GB of storage</li>
+                        <li>20 Count</li>
+                        <li>10 units of storage</li>
                         <li>Priority email support</li>
                         <li>Help center access</li>
                     </ul>
@@ -71,8 +70,8 @@
                 <div class="card-body">
                     <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>30 users included</li>
-                        <li>15 GB of storage</li>
+                        <li>30 Count</li>
+                        <li>15 units of storage</li>
                         <li>Phone and email support</li>
                         <li>Help center access</li>
                     </ul>
@@ -80,10 +79,10 @@
                 </div>
             </div>
         </div>
-        <div class="text-center">
+        <div *ngIf="!isMakeMoney" class="text-center">
             <h2 class="display-6"> {{cardDeckTitle}}</h2>
         </div>
-        <div class="row card-deck top-buffer">
+        <div *ngIf="!isMakeMoney"  class="row card-deck top-buffer">
             <div class="row card-deck">
                 <div class="card"  *ngFor="let card of cardsDeck1">
                     <img class="card-img-top" src="{{card.imageUrl}}" alt="">
@@ -107,8 +106,8 @@
         </div>
     </div>
 </div>
-<div class="jumbotron top-buffer">
-    <div class="container text-center">
+<div *ngIf="isMakeMoney"  class="jumbotron top-buffer">
+    <div  class="container text-center">
         <!-- CTA2 title -->
         <h1>{{CTATitle}}</h1>
         <p><a class="btn btn-primary btn-xlg" href="tel:{{Tfn}}" style="padding:20px;background-color:rgba(104, 176, 77, 1); color: white;">
@@ -117,16 +116,16 @@
 
     </div>
 </div>
-<div class="text-center">
+<div class="text-center  top-buffer">
     <iframe [src]='sanitizer.bypassSecurityTrustResourceUrl(this.MapUrl)' width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-<div>
+<!-- <div *ngIf="isMakeMoney">
     <div class="container">
         <p>
             <strong>Disclaimer:</strong> {{Disclaimer}}
         </p>
     </div>
-</div>
+</div> -->
 <!-- Footer -->
 <footer class="page-footer font-small teal pt-4" style="background: black; color: white">
 
@@ -139,8 +138,8 @@
             <!-- Grid column -->
             <div class="col-md-6 mt-md-0 mt-3">
 
-                <a *ngIf="isMakeMoney" class="btn bg-company-grn btn-xlg" href="tel:{{Tfn}}">
-                    CLICK TO CALL <button type="button" class="btn bg-company-grn btn-lg">{{TfnClicktoCall}}</button>
+                <a *ngIf="isMakeMoney" class="btn bg-company-grn btn-xlarge" href="tel:{{Tfn}}">
+                    <button type="button" class="btn bg-company-grn btn-xlarge">CLICK TO CALL  {{TfnClicktoCall}}</button>
                 </a>
 
             </div>

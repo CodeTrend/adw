@@ -6,25 +6,25 @@ export const environment = {
   production: false,
   IsMakeMoney: false,
   Title: "This is the title",
-  Domain: "cool.com",
-  TfnNumbers: "18002742129",
-  TfnClickToCall: "1-800-274-2129",
+  Domain: "vdeskify.firebaseapp.com",
+  TfnNumbers: "1A8A0A2A3A2A1A0A1A11",
+  TfnClickToCall: "1A-8A0A2-3A2A1-0A1A11",
   AddressLine1: "Plot No 495, Raja Park Gali No 5,",
   AddressLine2: "Raja Park, Jaipur - 302004",
   ContactNumber: "9940311034",
   CTATitle: "Quick Customer Support Number",
   MapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.9888773207504!2d73.01093061541665!3d26.26202439411884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c3e4389fdb9%3A0x6d6ad81a811317fb!2sNew+Power+House+Rd%2C+Jodhpur%2C+Rajasthan!5e0!3m2!1sen!2sin!4v1543373893514",
   companyLogo: {
-    normal: "https://blog.theodo.fr/wp-content/uploads/2017/11/logo-theodo.png",
-    money: "https://static.wixstatic.com/media/a8c8c1_bb994a1c86af44a4950cf17d235b73cc~mv2.jpg/v1/fill/w_201,h_45,al_c,q_80,usm_0.66_1.00_0.01/420980-quickbooks-desktop-enterprise-log.webp"
+    normal: "/assets/img/logo.png",
+    money: "/assets/img/mn/logo.webp"
   },
   bannerImage: {
-    normal: "https://scotch-res.cloudinary.com/image/upload/dpr_1,w_1050,q_auto:good,f_auto/media/1/XY1f5y4S4qEXPF38GDFm_deploying-angular-cli-apps-to-production-with-firebase.jpg",
-    money: ".../assets/img/mn/banner.png"
+    normal: "/assets/img/banner/solor.jpg",
+    money: "/assets/img/mn/banner.png"
   },
   producImage: {
     normal: "https://www.azocleantech.com/images/Article_Images/ImageForArticle_723(1).jpg",
-    money: "../assets/img/imgbody.webp"
+    money: "/assets/img/mn/body.webp"
   },
   disclaimer: {
     normal: "solar panel disclaimer",
@@ -35,41 +35,33 @@ export const environment = {
     money: "Quickbooks"
   },
   CARD1: {
-    Title: "Card title",
-    Body: "This is a longer card It's a broader card with text below as a natural lead-in to extra content. This content is a little longer. This content is a little bit longer.",
-    ImageUrl: "https://dummyimage.com/300x200/000/fff"
+    Title: "300 Watt Waaree Aditya Series Solar Panel WSM-300",
+    Body: "Continuing its efforts to promote the use of Solar PVC modules as a viable energy source, Waaree energies, one of India’s leading solar product manufacturers, has installed solar rooftop panels at Growel’s corporate office located in Growel’s Mall– one of the most popular shopping centers in Kandivali, Mumbai.",
+    ImageUrl: "https://4.imimg.com/data4/IA/LB/MY-6982239/usg-75-watt-polycrystalline-500x500.jpeg"
   },
   CARD2: {
-    Title: "Card title",
-    Body: "This is a longer card It's a broader card with text below as a natural lead-in to extra content. This content is a little longer. This content is a little bit longer.",
-    ImageUrl: "https://dummyimage.com/300x200/000/fff"
+    Title: "USG 75 Watt Polycrystalline Solar Panel",
+    Body: "The solar panel system has played a significant role in reducing the shopping mall’s carbon footprint – eliminating almost 2, 23, 200 kg of carbon dioxide.",
+    ImageUrl: "https://5.imimg.com/data5/RE/FY/MY-6982239/usg-40-watt-polycrystalline-solar-panels-500x500.jpg"
   },
   CARD3: {
-    Title: "Card title",
-    Body: "This is a longer card It's a broader card with text below as a natural lead-in to extra content. This content is a little longer. This content is a little bit longer.",
-    ImageUrl: "https://dummyimage.com/300x200/000/fff"
+    Title: "USG 40 Watt Polycrystalline Solar Panels,",
+    Body: "We have set up an ultramodern infrastructure unit that is equipped with advanced machinery and technology. Manned by a team of skilled professionals, we are able to present a quality assortment of products. These young team members are passionate and well-informed with the conceptual acquaintance of their relevant area, besides bringing with them years of experience. We are constantly looking to make technological upgrades and enhancements.",
+    ImageUrl: "https://5.imimg.com/data5/LA/BU/MY-6982239/usg-60-watt-polycrystalline-solar-panels-500x500.jpg"
   },
   CARD4: {
-    Title: "Card title",
-    Body: "This is a longer card It's a broader card with text below as a natural lead-in to extra content. This content is a little longer. This content is a little bit longer.",
-    ImageUrl: "https://dummyimage.com/300x200/000/fff"
+    Title: "USG 60 Watt Polycrystalline Solar Panels",
+    Body: "Known for their high efficiency, better conductivity and high durability these products are highly demanded in various industries. Apart from this, we provide this range in various standards and customization options as per the application requirements of our clients. ",
+    ImageUrl: "https://5.imimg.com/data5/OK/XP/MY-6982239/usg-150-watt-polycrystalline-solar-panels-500x500.jpg"
   },
   CARD5: {
-    Title: "Card title",
-    Body: "This is a longer card It's a broader card with text below as a natural lead-in to extra content. This content is a little longer. This content is a little bit longer.",
-    ImageUrl: "https://dummyimage.com/300x200/000/fff"
+    Title: "Crystalline Solar Power Panel",
+    Body: "Our Quality Experts utilize high-tech testing techniques to check the quality parameters of the products. To store our solar products in safe and systematic manner, we have set up a well-furnished big and spacious warehousing unit.",
+    ImageUrl: "https://5.imimg.com/data5/PI/MJ/MY-729492/polycrystalline-pv-panel-500x500.jpg"
   },
   CARD6: {
-    Title: "Card title",
-    Body: "This is a longer card It's a broader card with text below as a natural lead-in to extra content. This content is a little longer. This content is a little bit longer.",
-    ImageUrl: "https://dummyimage.com/300x200/000/fff"
+    Title: "Solar Panel Installation Service",
+    Body: "We are doing proper 7 layer box packing with thermocol sheets inside material. Also we do bubble plastic wrapping on material to protect panels and other material.",
+    ImageUrl: "https://5.imimg.com/data5/PF/WV/MY-40441151/solar-panel-installation-service-500x500.jpg"
   }
 };
-
-/*
- * In development mode, to ignore zone related error stack frames such as
- * `zone.run`, `zoneDelegate.invokeTask` for easier debugging, you can
- * import the following file, but please comment it out in production mode
- * because it will have performance impact when throw error
- */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.

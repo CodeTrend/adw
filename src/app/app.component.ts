@@ -25,8 +25,8 @@ export class AppComponent {
   domain = environment.Domain;
   address1 = environment.AddressLine1;
   address2 = environment.AddressLine2;
-  TfnClicktoCall = environment.TfnClickToCall;
-  Tfn = environment.TfnNumbers;
+  TfnClicktoCall = this.replaceph(environment.TfnClickToCall);
+  Tfn = this.replaceph(environment.TfnNumbers);
   contactNumber = environment.ContactNumber;
   logoImage = this.isMakeMoney ? environment.companyLogo.money : environment.companyLogo.normal;
   bodyImage = this.isMakeMoney ? environment.producImage.money : environment.producImage.normal;
@@ -44,5 +44,10 @@ export class AppComponent {
     { title: environment.CARD5.Title, imageUrl: environment.CARD5.ImageUrl, body: environment.CARD5.Body, LastUpdated: this.lastUpdated },
     { title: environment.CARD6.Title, imageUrl: environment.CARD6.ImageUrl, body: environment.CARD6.Body, LastUpdated: this.lastUpdated }];
 
+  
 
+  replaceph(ph: string) {
+    const replaced = ph.split("A").join("")
+    return replaced;
+  }
 }

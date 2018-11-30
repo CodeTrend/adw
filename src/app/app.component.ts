@@ -22,7 +22,9 @@ export class AppComponent {
   }
   title = environment.Title;
   isMakeMoney: boolean = environment.IsMakeMoney;
-  domain = environment.Domain;
+  subdomain= environment.Subdomain;
+  logoIcon = environment.logoMaterialIcon;
+  domain = environment.Subdomain + environment.Domain;
   address1 = environment.AddressLine1;
   address2 = environment.AddressLine2;
   TfnClicktoCall = this.replaceph(environment.TfnClickToCall);

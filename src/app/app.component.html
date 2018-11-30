@@ -1,20 +1,23 @@
 <nav class="navbar navbar-dark bg-company-grn">
     <div class="container">
-        <a class="navbar-brand" href="#"><img width="201" height="45" src="{{logoImage}}"></a>
-        <a  *ngIf="isMakeMoney" href="tel:{{Tfn}}">
-        <button *ngIf="isMakeMoney" class="btn btn-success ml-auto" style="background-color: rgba(255, 212, 71, 1); color: black;">
-            CALL {{TfnClicktoCall}}</button>
-            </a>
+        <a class="navbar-brand" href="#">
+            <img *ngIf="isMakeMoney" width="201" height="45" src="{{logoImage}}">
+            <span *ngIf="!isMakeMoney" class="name pull-left"><i class="material-icons">{{logoIcon}}</i> {{subdomain}}</span>
+        </a>
+        <a *ngIf="isMakeMoney" href="tel:{{Tfn}}">
+            <button *ngIf="isMakeMoney" class="btn btn-success ml-auto" style="background-color: rgba(255, 212, 71, 1); color: black;">
+                CALL {{TfnClicktoCall}}</button>
+        </a>
     </div>
 </nav>
 
 
 <div class="jumbotrontop jumbotron">
     <a href="#" id="ctcnow" *ngIf="isMakeMoney" href="tel:{{Tfn}}">
-        <div class="container jumbotronimagecontainer text-center"  [style.background-image]="'url('+ bannerImage +')'">
+        <div class="container jumbotronimagecontainer text-center" [style.background-image]="'url('+ bannerImage +')'">
             <div class="btnDiv">
-            <button id="singlebutton" name="singlebutton"  class="btn btn-xlarge"> CALL {{TfnClicktoCall}}</button> 
-        </div>
+                <button id="singlebutton" name="singlebutton" class="btn btn-xlarge"> CALL {{TfnClicktoCall}}</button>
+            </div>
         </div>
     </a>
     <div *ngIf="!isMakeMoney" class="container jumbotronimagecontainer" [style.background-image]="'url('+ bannerImage +')'">
@@ -23,7 +26,7 @@
 </div>
 
 <div class="container text-center">
-<img src="{{bodyImage}}" class="img-fluid" alt="...">
+    <img src="{{bodyImage}}" class="img-fluid" alt="...">
 </div>
 
 
@@ -84,9 +87,9 @@
         <div *ngIf="!isMakeMoney" class="text-center">
             <h2 class="display-6"> {{cardDeckTitle}}</h2>
         </div>
-        <div *ngIf="!isMakeMoney"  class="row card-deck top-buffer">
+        <div *ngIf="!isMakeMoney" class="row card-deck top-buffer">
             <div class="row card-deck">
-                <div class="card"  *ngFor="let card of cardsDeck1">
+                <div class="card" *ngFor="let card of cardsDeck1">
                     <img class="card-img-top" src="{{card.imageUrl}}" alt="">
                     <div class="card-body">
                         <h5 class="card-title">{{card.title}}</h5>
@@ -108,8 +111,8 @@
         </div>
     </div>
 </div>
-<div *ngIf="isMakeMoney"  class="jumbotron top-buffer">
-    <div  class="container text-center">
+<div *ngIf="isMakeMoney" class="jumbotron top-buffer">
+    <div class="container text-center">
         <!-- CTA2 title -->
         <h1>{{CTATitle}}</h1>
         <p><a class="btn btn-primary btn-xlg" href="tel:{{Tfn}}" style="padding:20px;background-color:rgba(104, 176, 77, 1); color: white;">
@@ -119,7 +122,8 @@
     </div>
 </div>
 <div class="text-center  top-buffer">
-    <iframe [src]='sanitizer.bypassSecurityTrustResourceUrl(this.MapUrl)' width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe [src]='sanitizer.bypassSecurityTrustResourceUrl(this.MapUrl)' width="600" height="450" frameborder="0"
+        style="border:0" allowfullscreen></iframe>
 </div>
 <!-- <div *ngIf="isMakeMoney">
     <div class="container">
@@ -141,7 +145,7 @@
             <div class="col-md-6 mt-md-0 mt-3">
 
                 <a *ngIf="isMakeMoney" class="btn bg-company-grn btn-xlarge" href="tel:{{Tfn}}">
-                    <button type="button" class="btn bg-company-grn btn-xlarge">CLICK TO CALL  {{TfnClicktoCall}}</button>
+                    <button type="button" class="btn bg-company-grn btn-xlarge">CLICK TO CALL {{TfnClicktoCall}}</button>
                 </a>
 
             </div>

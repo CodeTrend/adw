@@ -1,29 +1,28 @@
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
 
 export const environment = {
   production: true,
   IsMakeMoney: false,
   Title: "This is the title",
-  Domain: "vdeskify.firebaseapp.com",
+  Subdomain : "WeSachify",
+  logoMaterialIcon: "cloud",
+  Domain: ".firebaseapp.com",
   TfnNumbers: "1A8A0A2A3A2A1A0A1A11",
   TfnClickToCall: "1A-8A0A2-3A2A1-0A1A11",
-  AddressLine1: "Block C, Shastri Park,",
-  AddressLine2: "Shahdara Delhi, 110053",
-  ContactNumber: "9940334034",
+  AddressLine1: "3D Printers, Tribune Chowk,",
+  AddressLine2: " Industrial Area Phase II, Chandigarh, 160030",
+  ContactNumber: "9888999118",
   CTATitle: "Quick Customer Support Number",
-  MapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.623483601465!2d77.25736271544108!3d28.67099038240261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfcf5b415409b%3A0xdfab5b8b107129c6!2sStreet+Number+5%2C+Block+C%2C+Shastri+Park%2C+Shahdara%2C+Delhi%2C+110053!5e0!3m2!1sen!2sin!4v1543518976258",
+  MapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.7196781580083!2d76.78205611548256!3d30.6981622943482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fec8cc0000079%3A0x679b2a9b34f22c70!2s3D+Printers!5e0!3m2!1sen!2sin!4v1543597856874",
   companyLogo: {
     normal: "/assets/img/logo.png",
     money: "/assets/img/mn/logo.webp"
   },
   bannerImage: {
-    normal: "/assets/img/banner/solor.jpg",
+    normal: "/assets/img/banner/3d.jpg",
     money: "/assets/img/mn/banner.png"
   },
   producImage: {
-    normal: "https://www.azocleantech.com/images/Article_Images/ImageForArticle_723(1).jpg",
+    normal: "https://5.imimg.com/data5/OB/AA/MY-36665852/fdm-3d-printer-500x500.jpg",
     money: "/assets/img/mn/body.webp"
   },
   disclaimer: {
@@ -35,33 +34,33 @@ export const environment = {
     money: "Quickbooks"
   },
   CARD1: {
-    Title: "300 Watt Waaree Aditya Series Solar Panel WSM-300",
-    Body: "Continuing its efforts to promote the use of Solar PVC modules as a viable energy source, Waaree energies, one of India’s leading solar product manufacturers, has installed solar rooftop panels at Growel’s corporate office located in Growel’s Mall– one of the most popular shopping centers in Kandivali, Mumbai.",
-    ImageUrl: "https://4.imimg.com/data4/IA/LB/MY-6982239/usg-75-watt-polycrystalline-500x500.jpeg"
+    Title: "FDM 3D Printer - The Pramaan Series",
+    Body: "Global 3D Labs are the pioneers of 3D printing technology and leading manufacturers of 3D printers in India. Ever since our inception, we have aimed to be the front runners of 3D printing in India and are currently, on the verge of achieving that aim. We manufacture a wide range of best-in-class 3D printers and also, deliver coherent and reliable after-sales support. This makes Global 3D Labs the best and safest bet to buy 3D printers in India.",
+    ImageUrl: "https://5.imimg.com/data5/OR/EP/MY-9312288/fdm-3d-printer-global-3d-labs-500x500.png"
   },
   CARD2: {
-    Title: "USG 75 Watt Polycrystalline Solar Panel",
-    Body: "The solar panel system has played a significant role in reducing the shopping mall’s carbon footprint – eliminating almost 2, 23, 200 kg of carbon dioxide.",
-    ImageUrl: "https://5.imimg.com/data5/RE/FY/MY-6982239/usg-40-watt-polycrystalline-solar-panels-500x500.jpg"
+    Title: "3D Printer Kit, For Personal And Office Use",
+    Body: "Rapid manufacturing/prototyping, Architecture, Art and Jewellery, Healthcare, Automotive, Industrial engineering, Education or Fashion With the new era of technology evolving 3D printers, we are well known on the 3D printing scene for the quality, durability and high level of control over the printing process. Based on these specifics users often choose our products to create functional prototypes, complex 3D models and other advanced 3D prints demanding rigorous quality standards.",
+    ImageUrl: "https://5.imimg.com/data5/AU/VQ/MY-66354358/delta-diy-3d-printer-500x500.jpg"
   },
   CARD3: {
-    Title: "USG 40 Watt Polycrystalline Solar Panels,",
-    Body: "We have set up an ultramodern infrastructure unit that is equipped with advanced machinery and technology. Manned by a team of skilled professionals, we are able to present a quality assortment of products. These young team members are passionate and well-informed with the conceptual acquaintance of their relevant area, besides bringing with them years of experience. We are constantly looking to make technological upgrades and enhancements.",
-    ImageUrl: "https://5.imimg.com/data5/LA/BU/MY-6982239/usg-60-watt-polycrystalline-solar-panels-500x500.jpg"
+    Title: "Flashforge Hunter DLP 3D Printer",
+    Body: "Incepted in the year of 2015, Printomake 3D Solutions Private Limited is one of the leading Wholesale traders, importer, Retailer of 3D Printer, 3D Printing Filament, 3D Printer Spare Parts and Service providers of 3D Printing Service,3D Modeling Service. We offer these to our customers at market leading rates.",
+    ImageUrl: "https://5.imimg.com/data5/WR/DJ/MY-41664526/1-500x500.jpg"
   },
   CARD4: {
-    Title: "USG 60 Watt Polycrystalline Solar Panels",
-    Body: "Known for their high efficiency, better conductivity and high durability these products are highly demanded in various industries. Apart from this, we provide this range in various standards and customization options as per the application requirements of our clients. ",
-    ImageUrl: "https://5.imimg.com/data5/OK/XP/MY-6982239/usg-150-watt-polycrystalline-solar-panels-500x500.jpg"
+    Title: "Triostar Prusa I3 Kit 3D Printer",
+    Body: "3D Printing Services due to proper completion in minimal time and with high accuracy. In addition to this, these presented products are easy to use and do not require maintenance up to several years. Light weighted these products are widely demanded in different commercial areas.",
+    ImageUrl: "https://5.imimg.com/data5/FK/NM/MY-3025760/creality-cr-10s-3d-printer-500x500.jpg"
   },
   CARD5: {
-    Title: "Crystalline Solar Power Panel",
-    Body: "Our Quality Experts utilize high-tech testing techniques to check the quality parameters of the products. To store our solar products in safe and systematic manner, we have set up a well-furnished big and spacious warehousing unit.",
-    ImageUrl: "https://5.imimg.com/data5/PI/MJ/MY-729492/polycrystalline-pv-panel-500x500.jpg"
+    Title: "White, Natural Plastic Carbon Fibre 3D Printer",
+    Body: "We satisfy clients with the help of our qualified team of professionals and advanced research and technology. Also, we are supported by an ultra-modern infrastructure. Moreover, our products meet the highest of quality standards in terms of their delivery of quality and performance as well as can be customized as demanded by the customers. ",
+    ImageUrl: "https://5.imimg.com/data5/GC/MB/MY-3025760/b-500x500.jpg"
   },
   CARD6: {
-    Title: "Solar Panel Installation Service",
-    Body: "We are doing proper 7 layer box packing with thermocol sheets inside material. Also we do bubble plastic wrapping on material to protect panels and other material.",
-    ImageUrl: "https://5.imimg.com/data5/PF/WV/MY-40441151/solar-panel-installation-service-500x500.jpg"
+    Title: "CR-10S Creality 3D Printer",
+    Body: "All offered products are manufactured as per industry norms. In addition to this, our range has acknowledged due to the excellent features like highly efficient, easy usability, highly durable, excellent functionality, and optimum strength. Additionally, we are offering these products range at very reasonable rates. ",
+    ImageUrl: "https://5.imimg.com/data5/GC/MB/MY-3025760/b-500x500.jpg"
   }
 };

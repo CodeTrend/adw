@@ -1,7 +1,7 @@
 
 export const environment = {
   production: true,
-  IsMakeMoney: false,
+  IsMakeMoney: true,
   Title: "This is the title",
   Subdomain : "WeSachify",
   logoMaterialIcon: "cloud",

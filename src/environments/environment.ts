@@ -1,7 +1,7 @@
 
 export const environment = {
   production: false,
-  IsMakeMoney: true,
+  IsMakeMoney: false,
   Title: "This is the title",
   Subdomain : "Cryovac",
   logoMaterialIcon: "cloud",

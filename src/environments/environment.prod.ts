@@ -1,7 +1,7 @@
 
 export const environment = {
   production: true,
-  IsMakeMoney: true,
+  IsMakeMoney: false,
   Title: "This is the title",
   Subdomain : "Cryovac",
   logoMaterialIcon: "cloud",
@@ -18,11 +18,11 @@ export const environment = {
     money: "/assets/img/mn/logo.webp"
   },
   bannerImage: {
-    normal: "/assets/img/banner/3d.jpg",
+    normal: "/assets/img/banner/roll.png",
     money: "/assets/img/mn/banner.png"
   },
   producImage: {
-    normal: "https://5.imimg.com/data5/OB/AA/MY-36665852/fdm-3d-printer-500x500.jpg",
+    normal: "https://3.imimg.com/data3/YM/PM/MY-2055751/pvc-cling-films-for-wrapping-500x500.jpg",
     money: "/assets/img/mn/body.webp"
   },
   disclaimer: {
